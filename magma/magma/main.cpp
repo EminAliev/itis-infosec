@@ -5,7 +5,7 @@ int main()
 {
     cout << "Start" << endl;
 
-    char key[] = "58943658563456738695486799257846\0";
+    char key[] = "ffeeddccbbaa99887766554433221100f0fl f2f3f4f5f6f7f8f9fafbfcfdfeff\0";
     MAGMA magma(key);
 
     magma.encode();

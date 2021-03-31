@@ -25,7 +25,7 @@ void MAGMA::encode() {
     size = ftell(input_data);
     fseek(input_data, 0, SEEK_SET);
 
-    output_data = fopen(CRYPT, "r+");
+    output_data = fopen(CRYPT, "w+");
 
     do {
         unsigned int subBlockA = 0; 
