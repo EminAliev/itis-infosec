@@ -1,7 +1,7 @@
 <h1><b>Алгоритм шифрования - Магма</b></h1>
 
 <h2>Использование:</h2>
-```shell
+```python
 magma_algorithm [-h|--help - вызов описание команд<br>
 magma_algorithm [--ecb|--ctr|--ofb|--cbc|--cfb] {-e|-d} -k <key file> [operations] - вызов алгоритма в различных режимах
 -e,d - шифрование/расшифрование, <br>
