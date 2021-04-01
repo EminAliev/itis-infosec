@@ -13,7 +13,7 @@ magma_algorithm [--ecb|--ctr|--ofb|--cbc|--cfb] {-e|-d} -k <key file> [operation
 [operations] - опции в виде исходного/входного файла
  magma_algoritm --mac -k <key file> [operations] - вызов алгоритма в режиме mac
 [operations]:
--i <input file> - входной файл<br>
+-i <input file> - входной файл
 -o <output file> - выходной файл
 ```
 
@@ -24,7 +24,7 @@ magma_algorithm [--ecb|--ctr|--ofb|--cbc|--cfb] {-e|-d} -k <key file> [operation
 
 
 ```console
-magma_algorithm --ecb -e -i C:\Users\aliev\Desktop\input.txt -o C:\Users\aliev\Desktop\encode.txt -k C:\Users\aliev\Desktop\key.txt(пример шифрования)<br>
-magma_algorithm --ecb -d -i C:\Users\aliev\Desktop\encode.txt -o C:\Users\aliev\Desktop\decode.txt -k C:\Users\aliev\Desktop\key.txt(пример расшифрования)<br>
+magma_algorithm --ecb -e -i C:\Users\aliev\Desktop\input.txt -o C:\Users\aliev\Desktop\encode.txt -k C:\Users\aliev\Desktop\key.txt  (пример шифрования)
+magma_algorithm --ecb -d -i C:\Users\aliev\Desktop\encode.txt -o C:\Users\aliev\Desktop\decode.txt -k C:\Users\aliev\Desktop\key.txt (пример расшифрования)
 magma_algorithm --mac -k file.key -i file.in -o file.out
 ```
