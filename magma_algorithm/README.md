@@ -29,7 +29,7 @@ magma_algorithm --ecb -d -i C:\Users\aliev\Desktop\encode.txt -o C:\Users\aliev\
 magma_algorithm --mac -k file.key -i file.in -o file.out
 ```
 
-Приведены файлы, которые можно использовать для теста алгоритма:<br>
+<h2>Приведены файлы, которые можно использовать для теста алгоритма:</h2><br>
 -code.txt - текст, который мы хотим шифровать<br>
 -encode.txt - зашифрованный текст<br>
 -decode.txt - расшифрованный текст<br>
